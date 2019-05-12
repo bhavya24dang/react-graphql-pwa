@@ -1,6 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prerequisites
+Make sure you have node v10.x
 
-## Available Scripts
+## Setup
+1. Unzip/Clone the repository
+2. In the project run ```npm install```
+3. Follow the following commands to run the code on local/production environment
+
 
 In the project directory, you can run:
 
