@@ -4,6 +4,11 @@ import gql from "graphql-tag";
 
 import './Continent.css'
 
+/**
+ * Component showing the continent detail interface.
+ * Makes a call to the API with ```Query``` defined in ```render()``` function
+ * All the countries in the continent with their details are shown in a list.
+ */
 class Continent extends React.Component {
 
     constructor(props) {

@@ -1,9 +1,13 @@
-// Flag for enabling cache in production
+/**
+ * Service Worker lifecycle events.
+ */
+
+/** Flag for enabling cache in production */
 var doCache = false;
 
-var CACHE_NAME = 'graphql-assignment-cache';
+var CACHE_NAME = 'react-graphql-pwa-cache';
 
-// Delete old caches
+/** Delete old caches */
 self.addEventListener('activate', event => {
   const currentCachelist = [CACHE_NAME];
   event.waitUntil(
@@ -18,7 +22,7 @@ self.addEventListener('activate', event => {
   );
 });
 
-// This triggers when user starts the app
+/** This triggers when user starts the app */
 self.addEventListener('install', function(event) {
   if (doCache) {
     event.waitUntil(
@@ -42,7 +46,7 @@ self.addEventListener('install', function(event) {
   }
 });
 
-// Here we intercept request and serve up the matching files
+/** Here we intercept request and serve up the matching files */
 self.addEventListener('fetch', function(event) {
   if (doCache) {
     event.respondWith(
