@@ -1,0 +1,30 @@
+.continent-container {
+    padding: 0 40px;
+}
+
+h1 {
+    background: #157EFB;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.continent-ul {
+    padding: 0;
+}
+
+.continent-li {
+    height: auto;
+    width: 100%;
+    border: 2px solid #F6F5F7;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+    display: block;
+}
+
+.continent-li span {
+    margin-right: 10px;
+}
