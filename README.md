@@ -2,7 +2,7 @@
 Make sure you have node v10.x
 
 ## Setup
-1. Unzip/Clone the repository
+1. Clone the repository
 2. In the project run ```npm install```
 3. Follow the following commands to run the code on local/production environment
 
